@@ -1,2 +1,1 @@
-# nckl-dev-site
-Static site for the nckl dev domain
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
