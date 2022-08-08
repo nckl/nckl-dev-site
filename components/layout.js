@@ -4,8 +4,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Nckl Dev';
-export const siteTitle = 'Next.js Sample Website';
+const name = 'nckl.dev';
+export const siteTitle = 'Nckl Dev Profile Website';
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Profile website for Nckl Dev"
         />
         <meta
           property="og:image"
@@ -30,8 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
+              src="/images/nckl-logo.png"
               height={144}
               width={144}
               alt={name}
@@ -44,7 +43,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/images/nckl-logo.png"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
